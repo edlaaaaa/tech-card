@@ -1,8 +1,8 @@
 import './index.css'
 
-const cardsItemList = props => {
+const CardsItemList = props => {
   const {cardsList} = props
-  const {title, description, imgUrl} = cardsList
+  const {title, description, imgUrl, className} = cardsList
 
   return (
     <li className={`${className}cards-item-list`}>
@@ -15,4 +15,4 @@ const cardsItemList = props => {
   )
 }
 
-export default cardsItemList
+export default CardsItemList

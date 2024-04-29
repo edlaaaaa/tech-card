@@ -1,4 +1,4 @@
-import cardsItemList from './components/cardsItemList'
+import CardsItemList from './components/CardItem'
 
 import './App.css'
 
