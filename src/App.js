@@ -1,4 +1,4 @@
-import CardsItemList from './components/CardItem'
+import CardItem from './components/CardItem'
 
 import './App.css'
 
@@ -40,10 +40,9 @@ const cardsList = [
 const App = () => (
   <div className="cards-container">
     <ul className="cards-item">
-      {cardsList.map(eachItem => (
-        <cardsItemList cardsList={eachItem} key={eachItem.id} />
+      {cardsList.map(eachCard => (
+        <cardItem cardsDetail={eachCard} key={eachCard.id} />
       ))}
     </ul>
   </div>
-)
 export default App
